@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>freeCodeCamp Survey Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <div class="container">
+            <form action="" id="survey-form">
+                <div class="user-info">
+                    <label for="" id="name-label">Name</label>
+                    <input type="text" id="name" placeholder="Enter Your Name" class="user-info-input" required>
+                    <label for="" id="email-label">Email</label>
+                    <input type="email" id="email" placeholder="Enter Your Email" class="user-info-input" required>
+                    <label for="" id="number-label">Age(optional)</label>
+                    <input type="number" id="number" placeholder="Enter Your Age" class="user-info-input">
+                </div>
+                <div class="user-role">
+                    <label for="">Which option best describes your current role?</label>
+                    <select name="" id="dropdown">
+                        <option value="">Select current role</option>
+                        <option value="">Student</option>
+                        <option value="">Full Time Job</option>
+                        <option value="">Full Time Learner</option>
+                        <option value="">Prefer not to say</option>
+                        <option value="">Other</option>
+                    </select>
+                </div>
+                <div class="referal">
+                    <label for="">Would you recommend freeCodeCamp to a friend?</label>
+                    <span class="radio-button"><input type="radio" name="radio-button"><label for="">Definitely</label></span>
+                    <span class="radio-button"><input type="radio" name="radio-button"><label for="">Maybe</label></span>
+                    <span class="radio-button"><input type="radio" name="radio-button"><label for="">Not Sure</label></span>
+                </div>
+                <div class="user-fav-feature">
+                    <label for="">What is your favorite feature of freeCodeCamp? (Check all that apply)</label>
+                    <span class="checkbox"><input type="checkbox" name="" id="" value="checkbox-value" class="user-fav-feature-checkbox"><label for="">Front-end Projects</label></span>
+                    <span class="checkbox"><input type="checkbox" name="" id="" value="checkbox-value" class="user-fav-feature-checkbox"><label for="">Back-end Projects</label></span>
+                    <span class="checkbox"><input type="checkbox" name="" id="" value="checkbox-value" class="user-fav-feature-checkbox"><label for="">Data Visualization</label></span>
+                    <span class="checkbox"><input type="checkbox" name="" id="" value="checkbox-value" class="user-fav-feature-checkbox"><label for="">Challenges</label></span>
+                    <span class="checkbox"><input type="checkbox" name="" id="" value="checkbox-value" class="user-fav-feature-checkbox"><label for="">Open Source Community</label></span>
+                    <span class="checkbox"><input type="checkbox" name="" id="" value="checkbox-value" class="user-fav-feature-checkbox"><label for="">Gitter help rooms</label></span>
+                    <span class="checkbox"><input type="checkbox" name="" id="" value="checkbox-value" class="user-fav-feature-checkbox"><label for="">Videos</label></span>
+                    <span class="checkbox"><input type="checkbox" name="" id="" value="checkbox-value" class="user-fav-feature-checkbox"><label for="">City Meetups</label></span>
+                    <span class="checkbox"><input type="checkbox" name="" id="" value="checkbox-value" class="user-fav-feature-checkbox"><label for="">Wiki</label></span>
+                    <span class="checkbox"><input type="checkbox" name="" id="" value="checkbox-value" class="user-fav-feature-checkbox"><label for="">Forum</label></span>
+                    <span class="checkbox"><input type="checkbox" name="" id="" value="checkbox-value" class="user-fav-feature-checkbox"><label for="">Additional Courses</label></span>
+                </div>
+                <label for="">Any comments or suggestions?</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comments here..."></textarea>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
